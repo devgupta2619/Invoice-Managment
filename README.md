@@ -1,7 +1,9 @@
-
-
-
 # Invoice Management System
+![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
+![Django](https://img.shields.io/badge/Django-3.2-blue.svg)
+![React](https://img.shields.io/badge/React-17.0-green.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue.svg)
+![Django REST Framework](https://img.shields.io/badge/DRF-3.12-orange.svg)
 
 This is a full-stack Invoice Management System built with **Django** (backend) and **React** (frontend). The project allows users to manage invoices, add items to invoices, and perform CRUD operations on them. The backend is powered by Django REST Framework (DRF) and PostgreSQL, while the frontend is built using React and Axios to handle API requests.
 
@@ -25,6 +27,50 @@ This is a full-stack Invoice Management System built with **Django** (backend) a
   - Axios (for API requests)
   - React Router (for routing)
   - CSS (Custom styles for design)
+
+## File Structure
+``` bash
+Invoice_Management/
+├── .gitignore
+├── env/
+├── backend/
+│   ├── api/
+│   │   ├── migrations/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   ├── tests.py
+│   ├── manage.py
+│   ├── backend/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+├── invoice-frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── InvoiceForm.js
+│   │   │   ├── InvoiceList.js
+│   │   │   ├── InvoiceDetails.js
+│   │   ├── api.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── styles/
+│   │   │   ├── App.css
+│   │   │   ├── InvoiceList.css
+│   │   │   ├── InvoiceForm.css
+│   │   │   ├── InvoiceDetails.css
+│   ├── package.json
+│   ├── README.md
+└── .git/
+
+```
+
 
 ## Getting Started
 
