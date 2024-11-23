@@ -1,3 +1,4 @@
+
 # Invoice Management System
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![Django](https://img.shields.io/badge/Django-3.2-blue.svg)
@@ -8,21 +9,19 @@
 This is a full-stack Invoice Management System built with **Django** (backend) and **React** (frontend). The project allows users to manage invoices, add items to invoices, and perform CRUD operations on them. The backend is powered by Django REST Framework (DRF) and PostgreSQL, while the frontend is built using React and Axios to handle API requests.
 
 ## Features
-
-- **Create, Read, Update, and Delete (CRUD) Invoices**
-- **View Invoice Details**: Shows detailed information about each invoice and the items associated with it.
-- **Responsive**: The application is fully responsive, optimized for both desktop and mobile devices.
-- **Cross-Origin Resource Sharing (CORS)**: The backend and frontend are connected with CORS headers for seamless communication.
+- 📝 **Create, Read, Update, and Delete (CRUD) Invoices**
+- 🔍 **View Invoice Details**: Shows detailed information about each invoice and the items associated with it.
+- 📱 **Responsive**: The application is fully responsive, optimized for both desktop and mobile devices.
+- 🔗 **Cross-Origin Resource Sharing (CORS)**: The backend and frontend are connected with CORS headers for seamless communication.
 
 ## Tech Stack
-
-- **Backend**:
+- 💻 **Backend**:
   - Django
   - Django REST Framework
   - PostgreSQL
   - django-cors-headers (for CORS support)
   
-- **Frontend**:
+- 🌐 **Frontend**:
   - React
   - Axios (for API requests)
   - React Router (for routing)
@@ -68,19 +67,15 @@ Invoice_Management/
 │   ├── package.json
 │   ├── README.md
 └── .git/
-
 ```
 
-
 ## Getting Started
-
 To run the project locally, follow these steps:
 
 ### Prerequisites
-
-- [Python 3.x](https://www.python.org/downloads/)
-- [Node.js](https://nodejs.org/en/)
-- [PostgreSQL](https://www.postgresql.org/)
+- 🔹 [Python 3.x](https://www.python.org/downloads/)
+- 🔹 [Node.js](https://nodejs.org/en/)
+- 🔹 [PostgreSQL](https://www.postgresql.org/)
 
 ### Backend Setup
 
@@ -233,18 +228,14 @@ To run the project locally, follow these steps:
    - Method: `DELETE`
    - URL: `http://127.0.0.1:8000/api/invoices/{id}/`
 
-
-
-
-
 ---
 
 ## Acknowledgements
 
-- **Django** for the backend framework.
-- **Django REST Framework** for creating the API.
-- **React** for the frontend framework.
-- **PostgreSQL** for the database.
+- 💻 **Django** for the backend framework.
+- ⚙️ **Django REST Framework** for creating the API.
+- 🌐 **React** for the frontend framework.
+- 🗄️ **PostgreSQL** for the database.
 
----
+
 
