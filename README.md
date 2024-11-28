@@ -6,7 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue.svg)
 ![Django REST Framework](https://img.shields.io/badge/DRF-3.12-orange.svg)
 
-This is a full-stack Invoice Management System built with **Django** (backend) and **React** (frontend). The project allows users to manage invoices, add items to invoices, and perform CRUD operations on them. The backend is powered by Django REST Framework (DRF) and PostgreSQL, while the frontend is built using React and Axios to handle API requests.
+This is a full-stack Invoice Management System built with **Django** (backend) and **React** (frontend). The project allows users to manage invoices, add items to invoices, and perform CRUD operations on them. The backend is powered by Django REST Framework (DRF) and PostgreSQL, while the frontend is built using React and Axios to handle API  requests.
 
 ## Features
 - 📝 **Create, Read, Update, and Delete (CRUD) Invoices**
